@@ -50,6 +50,8 @@ To start the server:
 ```
 npm start
 ```
+Files of interest are in the **routes** folder
+
 ## Available Routes
 - [GET] ..  /products/
 
