@@ -31,6 +31,8 @@ Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshifta
 _Route Response:_ https://github.com/harman-brar/Shop-Backend/blob/master/shop-backend-pics/see-cart_post.png
 
 ### Complete Cart:
+* returns all products in cart with inventory_count reduced by 1 and the price of 1x each item
+
 Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/cart/completeCart?action=complete
 
 _Route Response:_ https://github.com/harman-brar/Shop-Backend/blob/master/shop-backend-pics/complete-cart_post.png
