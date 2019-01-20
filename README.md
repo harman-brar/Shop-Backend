@@ -4,7 +4,7 @@
 This backend is being hosted: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com
 
 ### Retrieving One Product:
-* replace (item_name) with one of the existing items listed after creating a cart
+* must replace (item_name) param with one of the existing items listed after creating a cart
 
 Route [GET]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/products/one?name=(item_name)
 
@@ -26,7 +26,7 @@ Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshifta
 _Route Response:_ https://github.com/harman-brar/Shop-Backend/blob/master/shop-backend-pics/create-cart_post.png
 
 ### Adding Product To Cart:
-* replace (item_name) with one of the existing items listed after creating a cart
+* must replace (item_name) param with one of the existing items listed after creating a cart
 
 Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/cart/addToCart?name=(item_name)
 
@@ -40,7 +40,7 @@ Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshifta
 _Route Response:_ https://github.com/harman-brar/Shop-Backend/blob/master/shop-backend-pics/see-cart_post.png
 
 ### Complete Cart:
-* returns all products in cart with inventory_count reduced by 1 and the price of 1x each item
+* returns all products in cart with inventory_count reduced by 1 and the sum of 1x each item price
 
 Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/cart/completeCart?action=complete
 
