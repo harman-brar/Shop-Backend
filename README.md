@@ -3,6 +3,13 @@
 ## Interaction
 This backend is being hosted: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com
 
+### Retrieving One Product:
+* replace (item_name) with one of the existing items listed after creating a cart
+
+Route [GET]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/products/one?name=(item_name)
+
+_Route Response:_ https://github.com/harman-brar/Shop-Backend/blob/master/shop-backend-pics/one-prod_get.png
+
 ### Retrieving All Products:
 Route [GET]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/products/   
 
@@ -19,7 +26,9 @@ Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshifta
 _Route Response:_ https://github.com/harman-brar/Shop-Backend/blob/master/shop-backend-pics/create-cart_post.png
 
 ### Adding Product To Cart:
-Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/cart/addToCart?name=Item Uno
+* replace (item_name) with one of the existing items listed after creating a cart
+
+Route [POST]: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com/cart/addToCart?name=(item_name)
 
 _Route Response:_ https://github.com/harman-brar/Shop-Backend/blob/master/shop-backend-pics/add-cart_post.png
 
@@ -50,16 +59,18 @@ To start the server:
 ```
 npm start
 ```
-Files of interest are in the **routes** folder
+### Files of interest are in the _routes_ folder
 
 ## Available Routes
 - [GET] ..  /products/
+
+- [GET] ..  /products/one?name=(item_name)
 
 - [GET] ..  /products/?onlyNonZero=true
 
 - [POST] .. /cart/
 
-- [POST] .. /cart/addToCart?name=XXXXXXXX
+- [POST] .. /cart/addToCart?name=(item_name)
 
 - [POST] .. /cart/completeCart?action=see
 
