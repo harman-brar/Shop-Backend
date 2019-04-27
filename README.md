@@ -1,7 +1,7 @@
 # Shop-Backend
 
 ## Interaction
-This backend is being hosted: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com
+This backend is **no longer** being hosted at: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com
 
 ### Retrieving One Product:
 * must replace (item_name) param with one of the existing items listed after creating a cart
