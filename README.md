@@ -1,5 +1,7 @@
 # Shop-Backend
 
+Note: project soon to be refactored using json objects rather than query params for more advanced functionality
+
 ## Interaction
 This backend is **no longer** being hosted at: http://shop-backend-shop-backend.1d35.starter-us-east-1.openshiftapps.com
 
